@@ -1,0 +1,193 @@
+/* Farm Management System Custom Stylesheet */
+:root {
+    --primary-color: #2e7d32;
+    --primary-dark: #1b5e20;
+    --primary-light: #e8f5e9;
+    --accent-color: #4caf50;
+    --sidebar-bg: #1e293b;
+    --sidebar-hover: #334155;
+    --sidebar-text: #94a3b8;
+    --bg-light: #f8fafc;
+    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    --hover-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-light);
+    color: #334155;
+    min-height: 100vh;
+}
+
+/* Sidebar Styling */
+#sidebar-wrapper {
+    min-width: 260px;
+    max-width: 260px;
+    background-color: var(--sidebar-bg);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.sidebar-heading {
+    padding: 1.25rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%);
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    color: var(--sidebar-text);
+    text-decoration: none;
+    font-weight: 500;
+    border-left: 4px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.sidebar-link i {
+    width: 24px;
+    font-size: 1.1rem;
+    margin-right: 12px;
+}
+
+.sidebar-link:hover {
+    color: #ffffff;
+    background-color: var(--sidebar-hover);
+    border-left-color: var(--accent-color);
+}
+
+.sidebar-link.active {
+    color: #ffffff;
+    background-color: #334155;
+    border-left-color: #4caf50;
+    font-weight: 600;
+}
+
+.sidebar-section-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #64748b;
+    padding: 1.25rem 1.25rem 0.5rem;
+    font-weight: 700;
+}
+
+/* Navbar */
+.top-navbar {
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Dashboard Metric Cards */
+.card-metric {
+    border: none;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+}
+
+.card-metric:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--hover-shadow);
+}
+
+.metric-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.icon-farmer { background-color: #e0f2fe; color: #0284c7; }
+.icon-crop { background-color: #dcfce7; color: #16a34a; }
+.icon-seed { background-color: #fef3c7; color: #d97706; }
+.icon-labour { background-color: #f3e8ff; color: #9333ea; }
+.icon-expense { background-color: #fee2e2; color: #dc2626; }
+.icon-equipment { background-color: #e0e7ff; color: #4f46e5; }
+.icon-production { background-color: #ccfbf1; color: #0d9488; }
+.icon-sales { background-color: #d1fae5; color: #059669; }
+.icon-profit { background-color: #dcfce7; color: #15803d; }
+
+/* Custom Buttons */
+.btn-farm {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    font-weight: 500;
+    padding: 0.5rem 1.25rem;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-farm:hover {
+    background-color: var(--primary-dark);
+    color: #ffffff;
+}
+
+/* Card Header Tweaks */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+}
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    font-weight: 600;
+    padding: 1rem 1.25rem;
+}
+
+/* Data Tables */
+.table {
+    vertical-align: middle;
+}
+
+.table thead th {
+    background-color: #f8fafc;
+    color: #475569;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.badge-farm {
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    font-weight: 600;
+    padding: 0.35em 0.65em;
+    border-radius: 6px;
+}
+
+/* Login Page Styling */
+.login-body {
+    background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 40%, #111827 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 16px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.login-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
