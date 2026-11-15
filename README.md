@@ -10,6 +10,7 @@
 | Sl. No. | Student Name | USN |
 |:---:|:---|:---:|:---|
 | 1 | **Bharath H M** | `4GH24CS020` |
+
 ---
 
 ## 🛠️ Project Overview & Architecture
