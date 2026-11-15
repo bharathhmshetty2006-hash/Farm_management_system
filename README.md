@@ -9,11 +9,7 @@
 ## 👥 Student Project Team
 | Sl. No. | Student Name | USN | Assigned Modules |
 |:---:|:---|:---:|:---|
-| 1 | **Bharath H M** | `4GH24CS020` | Database Design, Farmer, Crop, Shared Layout |
-| 2 | **Bhaskar C H** | `4GH24CS021` | Seed Management, Labour Management |
-| 3 | **Chandasab Jamadar** | `4GH24CS030` | Expense Management, Equipment, Dashboard |
-| 4 | **Doddadurugapnara Nagaraja** | `4GH24CS045` | Production, Sales, Financial Analysis Report |
-
+| 1 | **Bharath H M** | `4GH24CS020` |
 ---
 
 ## 🛠️ Project Overview & Architecture
