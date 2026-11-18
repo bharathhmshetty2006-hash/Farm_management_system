@@ -60,11 +60,6 @@ Open your browser and visit:
 ```text
 http://localhost/farm_management/
 ```
-
-### 🔑 Default Admin Credentials
-- **Username:** `admin`
-- **Password:** `admin123`
-
 ---
 
 ## 📁 Directory Structure
